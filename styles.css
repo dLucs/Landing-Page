@@ -1,0 +1,136 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Styling starts here! */
+
+html {
+    font-family:Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+/* Header*/
+
+.top-content {
+    background-color: #1f2937;
+    align-items: center;
+    width: 100%;
+    
+}
+
+.header {
+    display: flex;
+    max-width: 75%;
+    margin: auto;  
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;  
+}
+
+.header ul{
+    display: flex;
+    gap: 20px;
+    font-size: 18px;
+    color: #e5e7eb;  
+}
+
+.header h4{
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+
+/* top-panel*/
+.title-content{
+    display: flex;
+    max-width: 75%;
+    margin: auto;
+    justify-content: space-between;  
+    width: 100%; 
+    padding: 75px 0;
+}
+
+.title-left{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    gap: 10px;
+    align-items: flex-start;
+ 
+}
+
+.title-content h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+}
+
+.title-content p{
+    font-size: 18px;
+    color: #e5e7eb; 
+}
+
+.title-content button{
+    background-color: #3882f6;
+    font-size: 15px;
+    font-weight: bold;
+    color: #f9faf8;
+    border-radius: 4px;
+    border: 0;
+    padding: 6px 24px;
+}
