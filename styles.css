@@ -126,7 +126,7 @@ body {
     color: #e5e7eb; 
 }
 
-button{
+.title-content button{
     background-color: #3882f6;
     font-size: 15px;
     font-weight: bold;
@@ -228,6 +228,25 @@ button{
 }
 
 .ad button {
+    display: flex;
+    align-self: center;
     border: 2px solid #e5e7eb; 
-    border-radius: 15px;
-    margin: 0;
+    background-color: #3882f6;
+    font-size: 15px;
+    font-weight: bold;
+    color: #f9faf8;
+    border-radius: 4px;
+    padding: 6px 24px;
+    }
+
+.footer {
+    background-color:#1f2937 ;
+    color: #e5e7eb;
+    font-size: 18px;
+    width: 100%;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
